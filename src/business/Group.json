@@ -1,0 +1,37 @@
+{
+"ver":123456，
+"group":
+[
+	{
+		"id":1,
+		"dps":[
+			{
+				"devid":123,
+				"dpid":1,
+				"name":"dsd"
+			},
+			{
+				"devid":1234,
+				"dpid":1,
+				"name":"wew"
+			}
+		]
+	},
+	{
+		"id":2,
+		"dps":[
+			{
+				"devid":12,
+				"dpid":2,
+				"name":"ds"
+			},
+			{
+				"devid":12,
+				"dpid":2,
+				"name":"wqe"
+			}
+		]
+	}
+
+]
+}

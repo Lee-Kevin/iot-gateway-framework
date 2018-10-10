@@ -1,0 +1,15 @@
+{
+	"network":{
+		"RemoteMosquitto":1,
+		"AliMqtt":0,
+		"LocalMosquitto":0
+	},
+	"business":{
+		"Scene":0,
+		"Timed":0
+	}
+	"protocol_bus":{
+		"Modbus":0,
+		"Lds":1
+	}
+}

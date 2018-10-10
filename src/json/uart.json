@@ -1,0 +1,28 @@
+[
+    {
+        "Config": 
+        {
+            "Uartstr":"./a",
+            "Baudrate":9600,
+            "Databits":8,
+            "Parity":"N",
+            "Stopbits":1
+        },
+        "Description":"RS485-1",
+        "Uartid" : 2,
+        "Module":"LDS"
+    },
+    {
+        "Config": 
+        {
+            "Uartstr":"./b",
+            "Baudrate":9600,
+            "Databits":8,
+            "Parity":"N",
+            "Stopbits":1
+        },
+        "Description":"RS485-2",
+        "Uartid":3,
+        "Module":"modbus"
+    }
+]

@@ -1,0 +1,55 @@
+{
+  "ver": 1,
+  "scenetask": [
+    {
+      "id": 1,
+      "name": "打开所有灯",
+      "devdpmsg": [
+        {
+          "id": 1,
+          "devid": 34275338,
+          "dpid": 1,
+          "data": 1
+        },
+        {
+          "id": 2,
+          "devid": 34275338,
+          "dpid": 2,
+          "data": 1
+        },
+        {
+          "id": 3,
+          "devid": 34275339,
+          "dpid": 1,
+          "data": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "关闭所有灯",
+      "devdpmsg": [
+        {
+          "id": 1,
+          "devid": 34275338,
+          "dpid": 1,
+          "data": 0
+        },
+        {
+          "id": 2,
+          "devid": 34275338,
+          "dpid": 2,
+          "data": 0
+        },
+        {
+          "id": 3,
+          "devid": 34275339,
+          "dpid": 1,
+          "data": 0
+        }
+     
+      ]
+    } 
+  ]
+}
+

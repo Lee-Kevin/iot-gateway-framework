@@ -1,0 +1,28 @@
+CC=gcc
+CFLAGES = -w -g -Wall -O2
+LIBS=-lpthread -lsqlite3 -luuid -ldl -lmosquitto -lcrypto -lcurl
+
+INCS=-I./ -I./utils -I./common -I./log -I./json -I./lds -I./base -I./broadcast -I./net
+TARGET = gateway
+DIRS = . \
+./utils \
+./common \
+./log \
+./json \
+./lds \
+./base \
+./broadcast \
+./net \
+
+FILES = $(foreach dir, $(DIRS),$(wildcard $(dir)/*.c))
+OBJS = $(patsubst %.c,%.o,$(FILES))
+
+
+$(TARGET):$(OBJS)
+	$(CC) -o $(TARGET) $(OBJS) $(CFLAGES) $(LIBS)
+
+$(OBJS):%.o:%.c         
+	@$(CC) $(INCS) -c  $< $(CFLAGES) -o $@
+
+clean:
+	-rm -f $(TARGET) $(OBJS)

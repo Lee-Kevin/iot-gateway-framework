@@ -1,0 +1,19 @@
+{
+  "ver": 1,
+  "timedtask": [
+    {
+      "id": 1,
+      "en": 0,
+      "mode": 2,
+      "condition": [1000],
+      "devdpmsg": [
+		{
+        "devid": 1001,
+        "dpid": 1,
+        "data": 123
+		}
+	  ]
+    }
+  ]
+}
+

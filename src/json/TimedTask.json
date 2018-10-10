@@ -1,0 +1,45 @@
+{
+  "ver": 1,
+  "task": [
+    {
+      "id": 1,
+      "en": 0,
+      "mode": 2,
+      "condition": [1000],
+      "devdpmsg": {
+        "devid": 1001,
+        "dpid": 1,
+        "data": 123
+      }
+    },
+    {
+      "id": 2,
+      "en": 1,
+      "mode": 4,
+      "condition": [6, 50],
+      "groupmsgsend": {
+        "gaddr": 1111,
+        "data": [1,2,"ok"]
+      }
+    },
+    {
+      "id": 3,
+      "en": 1,
+      "mode": 9,
+      "condition": [2014, 12, 12, 23, 33, 0],
+      "scenemode": 1
+    },
+    {
+      "id": 4,
+      "en": 1,
+      "mode": 9,
+      "condition": [2014, 12, 13, 0, 38, 0],
+      "devdpmsg": {
+        "devid": 1001,
+        "dpid": 1,
+        "data": "[2014, 12, 13, 0, 2, 0]"
+      }
+    }
+  ]
+}
+
