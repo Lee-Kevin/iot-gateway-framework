@@ -45,7 +45,7 @@
 # buid files
 build/*
 #lib files
-lib/*
+#lib/*
 #shell
 #zip files
 *.gz
