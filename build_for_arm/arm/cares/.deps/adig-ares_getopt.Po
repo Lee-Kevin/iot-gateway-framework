@@ -1,0 +1,121 @@
+adig-ares_getopt.o: ares_getopt.c \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdio.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stddef.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/libio.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/_G_config.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/wchar.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdarg.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdlib.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/endian.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/select.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/select.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/time.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/alloca.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/xlocale.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/string.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/string2.h \
+ ares_getopt.h
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdio.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stddef.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/libio.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/_G_config.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/wchar.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdarg.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdlib.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/endian.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/endian.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/select.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/select.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/time.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/alloca.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/xlocale.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/string.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/string2.h:
+
+ares_getopt.h:

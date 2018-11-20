@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/workspace/1.code/iot-gateway-framework/lib/mosquitto/lib/cpp/mosquittopp.cpp
+cstdlib
+-
+mosquitto.h
+-
+mosquittopp.h
+-
+
+/home/kevin/workspace/1.code/iot-gateway-framework/lib/mosquitto/lib/cpp/mosquittopp.h
+cstdlib
+-
+mosquitto.h
+-
+time.h
+-
+
+/home/kevin/workspace/1.code/iot-gateway-framework/lib/mosquitto/lib/mosquitto.h
+stdbool.h
+-
+

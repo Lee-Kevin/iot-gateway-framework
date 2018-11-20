@@ -176,8 +176,8 @@ fi
 #sed -i "1c CC=arm-linux-gcc" src/Makefile
 
 cd src/
-make clean
-make
+#make clean
+#make
 #cp bq-gateway-bz603 ../
 
     

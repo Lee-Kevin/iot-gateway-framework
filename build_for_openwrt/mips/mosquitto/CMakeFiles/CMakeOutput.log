@@ -1,0 +1,247 @@
+The system is: Linux - 4.4.0-96-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/2.8.11/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/2.8.11/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2327367360/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2327367360.dir/build.make CMakeFiles/cmTryCompileExec2327367360.dir/build
+make[1]: Entering directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2327367360.dir/testCCompiler.c.o
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc    -o CMakeFiles/cmTryCompileExec2327367360.dir/testCCompiler.c.o   -c /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp/testCCompiler.c
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTryCompileExec2327367360
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2327367360.dir/link.txt --verbose=1
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc         CMakeFiles/cmTryCompileExec2327367360.dir/testCCompiler.c.o  -o cmTryCompileExec2327367360 -rdynamic 
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1471863318/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1471863318.dir/build.make CMakeFiles/cmTryCompileExec1471863318.dir/build
+make[1]: Entering directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1471863318.dir/CMakeCCompilerABI.c.o
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc    -o CMakeFiles/cmTryCompileExec1471863318.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTryCompileExec1471863318
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1471863318.dir/link.txt --verbose=1
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc       -v CMakeFiles/cmTryCompileExec1471863318.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1471863318 -rdynamic  
+Reading specs from /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/specs
+COLLECT_GCC=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc
+COLLECT_LTO_WRAPPER=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/lto-wrapper
+Target: mipsel-openwrt-linux-uclibc
+Configured with: /home/kevin/workspace/openwrt_ap2/build_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 unknown' --prefix=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2 --build=i686-linux-gnu --host=i686-linux-gnu --target=mipsel-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/kevin/workspace/openwrt_ap2/staging_dir/host --with-mpfr=/home/kevin/workspace/openwrt_ap2/staging_dir/host --disable-decimal-float --with-mips-plt --with-mpc=/home/kevin/workspace/openwrt_ap2/staging_dir/host --disable-libssp --disable-__cxa_atexit --with-headers=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib
+Thread model: posix
+gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 unknown) 
+COMPILER_PATH=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/bin/
+LIBRARY_PATH=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1471863318' '-rdynamic' '-msoft-float' '-mllsc' '-mplt' '-mno-shared'
+ /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTryCompileExec1471863318 /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3 -L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib CMakeFiles/cmTryCompileExec1471863318.dir/CMakeCCompilerABI.c.o -lgcc_s -lc -lgcc_s /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o
+make[1]: Leaving directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1471863318/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1471863318.dir/build.make CMakeFiles/cmTryCompileExec1471863318.dir/build]
+  ignore line: [make[1]: Entering directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1471863318.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc    -o CMakeFiles/cmTryCompileExec1471863318.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [Linking C executable cmTryCompileExec1471863318]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1471863318.dir/link.txt --verbose=1]
+  ignore line: [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc       -v CMakeFiles/cmTryCompileExec1471863318.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1471863318 -rdynamic  ]
+  ignore line: [Reading specs from /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/specs]
+  ignore line: [COLLECT_GCC=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/lto-wrapper]
+  ignore line: [Target: mipsel-openwrt-linux-uclibc]
+  ignore line: [Configured with: /home/kevin/workspace/openwrt_ap2/build_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 unknown' --prefix=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2 --build=i686-linux-gnu --host=i686-linux-gnu --target=mipsel-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/kevin/workspace/openwrt_ap2/staging_dir/host --with-mpfr=/home/kevin/workspace/openwrt_ap2/staging_dir/host --disable-decimal-float --with-mips-plt --with-mpc=/home/kevin/workspace/openwrt_ap2/staging_dir/host --disable-libssp --disable-__cxa_atexit --with-headers=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 unknown) ]
+  ignore line: [COMPILER_PATH=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/]
+  ignore line: [mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1471863318' '-rdynamic' '-msoft-float' '-mllsc' '-mplt' '-mno-shared']
+  link line: [ /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTryCompileExec1471863318 /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3 -L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib CMakeFiles/cmTryCompileExec1471863318.dir/CMakeCCompilerABI.c.o -lgcc_s -lc -lgcc_s /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o]
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1471863318] ==> ignore
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o] ==> ignore
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o] ==> ignore
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/usr/lib] ==> ignore
+    arg [-L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3] ==> dir [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3]
+    arg [-L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib] ==> dir [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib]
+    arg [CMakeFiles/cmTryCompileExec1471863318.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o] ==> ignore
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3] ==> [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3]
+  collapse library dir [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib] ==> [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib;/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3;/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4088213715/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4088213715.dir/build.make CMakeFiles/cmTryCompileExec4088213715.dir/build
+make[1]: Entering directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4088213715.dir/testCXXCompiler.cxx.o
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++     -o CMakeFiles/cmTryCompileExec4088213715.dir/testCXXCompiler.cxx.o -c /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTryCompileExec4088213715
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4088213715.dir/link.txt --verbose=1
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++          CMakeFiles/cmTryCompileExec4088213715.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4088213715 -rdynamic 
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec321384750/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec321384750.dir/build.make CMakeFiles/cmTryCompileExec321384750.dir/build
+make[1]: Entering directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec321384750.dir/CMakeCXXCompilerABI.cpp.o
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++     -o CMakeFiles/cmTryCompileExec321384750.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTryCompileExec321384750
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec321384750.dir/link.txt --verbose=1
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++        -v CMakeFiles/cmTryCompileExec321384750.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec321384750 -rdynamic  
+Reading specs from /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/specs
+COLLECT_GCC=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++
+COLLECT_LTO_WRAPPER=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/lto-wrapper
+Target: mipsel-openwrt-linux-uclibc
+Configured with: /home/kevin/workspace/openwrt_ap2/build_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 unknown' --prefix=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2 --build=i686-linux-gnu --host=i686-linux-gnu --target=mipsel-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/kevin/workspace/openwrt_ap2/staging_dir/host --with-mpfr=/home/kevin/workspace/openwrt_ap2/staging_dir/host --disable-decimal-float --with-mips-plt --with-mpc=/home/kevin/workspace/openwrt_ap2/staging_dir/host --disable-libssp --disable-__cxa_atexit --with-headers=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib
+Thread model: posix
+gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 unknown) 
+COMPILER_PATH=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/bin/
+LIBRARY_PATH=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec321384750' '-rdynamic' '-shared-libgcc' '-msoft-float' '-mllsc' '-mplt' '-mno-shared'
+ /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTryCompileExec321384750 /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3 -L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib CMakeFiles/cmTryCompileExec321384750.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lc -lgcc_s /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o
+make[1]: Leaving directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec321384750/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec321384750.dir/build.make CMakeFiles/cmTryCompileExec321384750.dir/build]
+  ignore line: [make[1]: Entering directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec321384750.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++     -o CMakeFiles/cmTryCompileExec321384750.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [Linking CXX executable cmTryCompileExec321384750]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec321384750.dir/link.txt --verbose=1]
+  ignore line: [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++        -v CMakeFiles/cmTryCompileExec321384750.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec321384750 -rdynamic  ]
+  ignore line: [Reading specs from /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/specs]
+  ignore line: [COLLECT_GCC=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/lto-wrapper]
+  ignore line: [Target: mipsel-openwrt-linux-uclibc]
+  ignore line: [Configured with: /home/kevin/workspace/openwrt_ap2/build_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 unknown' --prefix=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2 --build=i686-linux-gnu --host=i686-linux-gnu --target=mipsel-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/kevin/workspace/openwrt_ap2/staging_dir/host --with-mpfr=/home/kevin/workspace/openwrt_ap2/staging_dir/host --disable-decimal-float --with-mips-plt --with-mpc=/home/kevin/workspace/openwrt_ap2/staging_dir/host --disable-libssp --disable-__cxa_atexit --with-headers=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 unknown) ]
+  ignore line: [COMPILER_PATH=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/]
+  ignore line: [mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec321384750' '-rdynamic' '-shared-libgcc' '-msoft-float' '-mllsc' '-mplt' '-mno-shared']
+  link line: [ /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTryCompileExec321384750 /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3 -L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib CMakeFiles/cmTryCompileExec321384750.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lc -lgcc_s /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o /home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o]
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec321384750] ==> ignore
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o] ==> ignore
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o] ==> ignore
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/usr/lib] ==> ignore
+    arg [-L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3] ==> dir [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3]
+    arg [-L/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib] ==> dir [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib]
+    arg [CMakeFiles/cmTryCompileExec321384750.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o] ==> ignore
+    arg [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3] ==> [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3]
+  collapse library dir [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib] ==> [/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib;/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3;/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib]
+  implicit fwks: []
+
+

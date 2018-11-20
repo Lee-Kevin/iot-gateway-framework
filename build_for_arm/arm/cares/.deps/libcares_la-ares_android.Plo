@@ -1,0 +1,4 @@
+libcares_la-ares_android.lo: ares_android.c \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:

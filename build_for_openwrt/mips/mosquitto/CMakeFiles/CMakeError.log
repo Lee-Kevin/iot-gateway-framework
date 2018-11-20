@@ -1,0 +1,22 @@
+Determining if the function getaddrinfo_a exists in the anl failed with the following output:
+Change Dir: /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec979770039/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec979770039.dir/build.make CMakeFiles/cmTryCompileExec979770039.dir/build
+make[1]: Entering directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec979770039.dir/CheckFunctionExists.c.o
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc   -DCHECK_FUNCTION_EXISTS=getaddrinfo_a   -o CMakeFiles/cmTryCompileExec979770039.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-2.8/Modules/CheckFunctionExists.c
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTryCompileExec979770039
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec979770039.dir/link.txt --verbose=1
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc     -DCHECK_FUNCTION_EXISTS=getaddrinfo_a    CMakeFiles/cmTryCompileExec979770039.dir/CheckFunctionExists.c.o  -o cmTryCompileExec979770039 -rdynamic -lanl 
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+/home/kevin/workspace/openwrt_ap2/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/bin/ld: cannot find -lanl
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec979770039] Error 1
+make: *** [cmTryCompileExec979770039/fast] Error 2
+
+

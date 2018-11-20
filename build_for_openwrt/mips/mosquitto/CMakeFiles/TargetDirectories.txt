@@ -1,0 +1,5 @@
+/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/lib/CMakeFiles/libmosquitto.dir
+/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/src/CMakeFiles/mosquitto.dir
+/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/client/CMakeFiles/mosquitto_pub.dir
+/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/client/CMakeFiles/mosquitto_sub.dir
+/home/kevin/workspace/1.code/iot-gateway-framework/build/mips/mosquitto/lib/cpp/CMakeFiles/mosquittopp.dir

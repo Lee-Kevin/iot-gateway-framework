@@ -53,14 +53,15 @@ typedef enum _MSGTYPE{
 }MSGTYPE;
 
 
-#pragma pack()
-typedef struct _DEVDPCTRLMSG{
+#pragma pack()  // 设定对齐方式
+typedef struct _DEVDPCTRLMSG{ // 数据点 来源和目的
 	unsigned int 	SrcDevId;
 	int 			SrcDpId;
 	unsigned int 	DesDevId;
 	int 			DesDpId;
-	char 			Data[MAX_DATA_LEN];
+	char 			Data[MAX_DATA_LEN]; 
 }DEVDPCTRLMSG;
+
 
 typedef struct _DEVPARAMMSG{
 	unsigned int 	SrcDevId;

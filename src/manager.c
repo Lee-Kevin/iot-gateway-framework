@@ -149,33 +149,6 @@ int main(int argc,char *argv[])
 				module[module_index].ModuleExit = MqttModuleExit;
 			}
 		}
-/*
-    if(JsGetModuleValue("LocalMosquitto")){
-        module_index = module_count();
-        if(module_index > MODULE_MIN && module_index < MODULE_MAX){
-            module[module_index].ModId = MOD_MQTT_ID;
-            module[module_index].Name = "LocalMqttModule";
-            module[module_index].ModuleInit = MqttModuleInit;
-            module[module_index].MsgProc = Send2MqttModule;
-            module[module_index].ModuleTick = MqttModuleTick;
-            module[module_index].ModuleExit = MqttModuleExit;
-        }
-    }
-
-		if(JsGetModuleValue("Modbus")){
-			module_index = module_count();
-			if(module_index > MODULE_MIN && module_index < MODULE_MAX){
-				module[module_index].ModId = MOD_MODBUS_ID;
-				module[module_index].Name = "ModbusModule";
-				module[module_index].ModuleInit = ModbusModuleInit;
-				module[module_index].MsgProc = Send2ModbusModule;
-				module[module_index].ModuleTick = NULL;
-				module[module_index].ModuleExit = ModbusModuleExit;
-            //module[module_index] = {MOD_MODBUS_ID,"ModbusModule",ModbusModuleInit,Send2ModbusModule,NULL,ModbusModuleExit};
-			}else{
-				;
-			}
-		}*/
 #endif
 		JsModule_Close();
     }

@@ -1,0 +1,12 @@
+prefix=/home/kevin/workspace/1.code/gateway/code/Dalitek-IOT-GW/build/arm/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 1.1.1-dev
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Libs.private: -ldl 
+Cflags: -I${includedir}

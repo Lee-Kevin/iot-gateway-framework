@@ -1,0 +1,414 @@
+libcurl_la-multi.lo: multi.c \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ curl_setup.h curl_config.h ../include/curl/curlbuild.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stddef.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/endian.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/select.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/select.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/time.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdint.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdint.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/inttypes.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/socket.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/uio.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/uio.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/socket.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/socket_type.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sockaddr.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm/socket.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm/sockios.h \
+ ../include/curl/curlrules.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdio.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/libio.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/_G_config.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/wchar.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdarg.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/assert.h \
+ curl_setup_once.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdlib.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/alloca.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/xlocale.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/string.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/string2.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/ctype.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/errno.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/errno.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/linux/errno.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm/errno.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/stat.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stat.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/time.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdbool.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/unistd.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/environments.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/confname.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/getopt.h \
+ ../include/curl/curl.h ../include/curl/curlver.h \
+ ../include/curl/curlbuild.h ../include/curl/curlrules.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed/limits.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed/syslimits.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/limits.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/linux/limits.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h \
+ ../include/curl/easy.h ../include/curl/multi.h ../include/curl/curl.h \
+ ../include/curl/typecheck-gcc.h urldata.h cookie.h formdata.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/netinet/in.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/in.h \
+ timeval.h http_chunks.h hostip.h hash.h llist.h curl_addrinfo.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/netdb.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/rpc/netdb.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/netdb.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/arpa/inet.h \
+ asyn.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/setjmp.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h \
+ splay.h imap.h pingpong.h curl_sasl.h pop3.h smtp.h ftp.h file.h ssh.h \
+ http.h rtsp.h smb.h wildcard.h multihandle.h conncache.h transfer.h \
+ url.h connect.h nonblock.h sockaddr.h progress.h easyif.h share.h \
+ multiif.h sendf.h select.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/poll.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/poll.h \
+ warnless.h speedcheck.h pipeline.h sigpipe.h vtls/vtls.h \
+ ../lib/curl_setup.h vtls/openssl.h vtls/gtls.h vtls/nssg.h vtls/gskit.h \
+ ../lib/urldata.h vtls/polarssl.h vtls/axtls.h vtls/cyassl.h \
+ vtls/schannel.h vtls/darwinssl.h vtls/mbedtls.h curl_printf.h \
+ ../include/curl/mprintf.h curl_memory.h memdebug.h
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+curl_setup.h:
+
+curl_config.h:
+
+../include/curl/curlbuild.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stddef.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/endian.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/endian.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/select.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/select.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/time.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdint.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdint.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/inttypes.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/socket.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/uio.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/uio.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/socket.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/socket_type.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sockaddr.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm/socket.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm/sockios.h:
+
+../include/curl/curlrules.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdio.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/libio.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/_G_config.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/wchar.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdarg.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/assert.h:
+
+curl_setup_once.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/stdlib.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/alloca.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/xlocale.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/string.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/string2.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/ctype.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/errno.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/errno.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/linux/errno.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm/errno.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/stat.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/stat.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/time.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdbool.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/unistd.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/environments.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/confname.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/getopt.h:
+
+../include/curl/curl.h:
+
+../include/curl/curlver.h:
+
+../include/curl/curlbuild.h:
+
+../include/curl/curlrules.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed/limits.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed/syslimits.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/limits.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/linux/limits.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h:
+
+../include/curl/easy.h:
+
+../include/curl/multi.h:
+
+../include/curl/curl.h:
+
+../include/curl/typecheck-gcc.h:
+
+urldata.h:
+
+cookie.h:
+
+formdata.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/netinet/in.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/in.h:
+
+timeval.h:
+
+http_chunks.h:
+
+hostip.h:
+
+hash.h:
+
+llist.h:
+
+curl_addrinfo.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/netdb.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/rpc/netdb.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/netdb.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/arpa/inet.h:
+
+asyn.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/setjmp.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h:
+
+splay.h:
+
+imap.h:
+
+pingpong.h:
+
+curl_sasl.h:
+
+pop3.h:
+
+smtp.h:
+
+ftp.h:
+
+file.h:
+
+ssh.h:
+
+http.h:
+
+rtsp.h:
+
+smb.h:
+
+wildcard.h:
+
+multihandle.h:
+
+conncache.h:
+
+transfer.h:
+
+url.h:
+
+connect.h:
+
+nonblock.h:
+
+sockaddr.h:
+
+progress.h:
+
+easyif.h:
+
+share.h:
+
+multiif.h:
+
+sendf.h:
+
+select.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/sys/poll.h:
+
+/opt/gcc-linaro-arm-linux-gnueabihf-4.9/arm-linux-gnueabihf/libc/usr/include/bits/poll.h:
+
+warnless.h:
+
+speedcheck.h:
+
+pipeline.h:
+
+sigpipe.h:
+
+vtls/vtls.h:
+
+../lib/curl_setup.h:
+
+vtls/openssl.h:
+
+vtls/gtls.h:
+
+vtls/nssg.h:
+
+vtls/gskit.h:
+
+../lib/urldata.h:
+
+vtls/polarssl.h:
+
+vtls/axtls.h:
+
+vtls/cyassl.h:
+
+vtls/schannel.h:
+
+vtls/darwinssl.h:
+
+vtls/mbedtls.h:
+
+curl_printf.h:
+
+../include/curl/mprintf.h:
+
+curl_memory.h:
+
+memdebug.h:
